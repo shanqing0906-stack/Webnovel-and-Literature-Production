@@ -75,7 +75,7 @@ Works/BOOK-001 - Title/
 
 ## Webnovel Writer Codex 融合
 
-- 该插件用于选择采用网文工作流的具体作品。运行 `$webnovel-init` 时把已确定的 `Works/<作品目录>/` 作为项目根，明确传给 `webnovel.py --project-root`；不要因 `where` 的旧指针误写其他书。尚未确定书名和核心设定时先收集信息，不生成占位 Canon。
+- 该插件用于选择采用网文工作流的具体作品。运行 `$webnovel-init` 时把已确定的 `Works/<作品目录>/` 作为项目根，明确传给 `webnovel.py --project-root`；不要因 `where` 的旧指针误写其他书。插件技能中“按书名生成子目录”的通用规则在本 vault 由作者明确指定的 `Works/BOOK-编号 - 书名/` 布局取代；初始化命令的 `title` 参数仍只填写书名，不加作品 ID。尚未确定书名和核心设定时先收集信息，不生成占位 Canon。
 - 插件创建的 `设定集/`、`大纲/`、`正文/`、`.webnovel/`、`.story-system/` 与书级目录并存。`Characters/`、`Setting/` 是便于作者逐项维护的主题档案，需写明状态与来源；它们不能凭空覆盖插件的事实主链。
 - `.story-system/` 的已接受提交是网文工作流的事实主链。遵守插件的 `write-gate`、`chapter-commit` 和投影流程；不手工编辑 `.story-system/commits/` 或 `.webnovel/` 中的索引、向量和投影日志。`设定集/` 中的汇总与逐项档案之间建立链接，避免两处独立维护同一事实。
 - 插件生成的书级 `AGENTS.md` 应保留其运行约定；本文件管理 vault 和跨作品规则。两者有冲突时先向作者说明具体冲突，再调整项目文件。
