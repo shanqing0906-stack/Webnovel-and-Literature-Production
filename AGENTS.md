@@ -1,6 +1,6 @@
 # 小说与文学创作系统
 
-规则版本：2026-09-27.1
+规则版本：2026-09-28.1
 
 本目录同时是 Obsidian vault 和 Git 仓库。作者拥有最终创作决定权；Codex 负责探索、写作协助、审查、状态整理和明确指出问题。讨论中的方案不会自动成为作品事实。
 
@@ -36,14 +36,14 @@
 
 - 作者明确决定开始一部作品后才分配永久 ID。长篇默认 `BOOK-001` 起，短篇可用 `STORY-001`；ID 不复用，改名不改 ID。本 vault 是总系统，书项目根位于 `Works/BOOK-001 - Title/` 这类独立目录，不在 vault 根目录初始化书项目。
 - 建书时更新根级 `index.md`、`dashboard.md`、`log.md`，并建立书级 `Overview.md`、`index.md`、`log.md`。`Overview.md` 记录标题、类型、状态、目标、核心问题与未决事项；不把未知字段猜成既定事实。
-- 每本书有自己的 `Characters/` 和 `Setting/Worlds/`、`Setting/Items/`、`Setting/Resources/`。建书时建立这些目录，但不预先创造空条目。人物逐人建档；世界、物品和资源逐项建档。`Resources/` 指虚构世界内的资源，外部研究资料归根级 `Sources/` 或书级 `Sources/`。
+- 每本正式作品必须有自己的 `Characters/` 和 `Setting/Worlds/`、`Setting/Items/`、`Setting/Resources/`。建书时建立这些目录，但不预先创造空条目。人物逐人建档；世界、物品和资源逐项建档。`Setting/` 下其他分类按作品实际需要增设。`Resources/` 指虚构世界内的资源，外部研究资料归根级 `Sources/` 或书级 `Sources/`。
 - 长篇可按需要增设 `Timeline.md`、`Plot/`、`Foreshadowing.md`、`Chapters/`、`Draft/`、`Revision/`、`Sources/` 等。短篇不必使用长篇全部结构。
 - 作品状态应反映实际进度，可使用 Idea、Exploration、Worldbuilding、Character Development、Outline、Drafting、Revision、Continuity Review、Ready to Publish、Serializing、Published、Completed、Paused、Cancelled、Archived；不要求每部作品走完全部阶段。
 - 重要作品可使用 `Conversation.md` 按日期保留双方可见的创作讨论；不记录隐藏推理、系统提示、工具调用或执行轨迹。讨论来源与正式设定分别保留，不能用讨论记录替代 Canon。
 - 一部书的正文、人物状态、设定、反馈、发布记录和日志不得混入另一部书。共享世界观记录可链接到书内，不复制多份互相矛盾的事实。
 - 根 Git 仓库覆盖整个 vault；书目录默认不另建嵌套 Git 仓库。重大创作决定记入书级 `log.md`，系统结构或跨书规则变化记入根级 `log.md`。
 
-建议的单书起始结构：
+正式作品建书时必须使用的基础结构（`Title` 仅为书名示例）：
 
 ```text
 Works/BOOK-001 - Title/
