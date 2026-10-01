@@ -5,6 +5,7 @@
 ## 作品
 
 - [[Works/BOOK-001 - 未定名/index|BOOK-001（书名未定）]]：正式立项，状态为 Exploration；讨论见 [[Works/BOOK-001 - 未定名/Conversation|创作讨论]]。
+- [[Works/BOOK-002 - 未定名/index|BOOK-002（书名未定）]]：近现实古典钢琴家成长小说，状态为 Worldbuilding；当前版本明确不带系统，讨论见 [[Works/BOOK-002 - 未定名/Conversation|创作讨论]]。
 
 ## 系统区域
 
